@@ -1,7 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800;900&display=swap');
 
 body {
-    background-color: #1b1b1b;
+    background-color: #000000;
+    /*background-image: url('https://codegena.com/wp-content/uploads/2015/10/Background-Pattern.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;*/
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -9,7 +14,7 @@ nav {
     position: fixed;
     top: 0;
     left: 0;
-    backdrop-filter: blur(10px) saturate(200%) brightness(70%);
+    background-color: #a80000;
     color: #fff;
     display: flex;
     height: 7vw;
@@ -59,7 +64,7 @@ nav h1 {
 }
  
 .search input {
-    background-color: #222222;
+    background-color: #5f5d5d;
     border: none;
     border-radius: 1vw 0 0 1vw;
     color: #fff;
@@ -81,7 +86,7 @@ nav h1 {
     background-color: #fff;
     border: none;
     border-radius: 0 1vw 1vw 0;
-    color:#222222;
+    color:#000000;
     font-size: 1.5vw;
     font-weight: 600;
     padding: 0.8vw 1vw;
@@ -161,7 +166,7 @@ nav h1 {
 .featured a {
     display: inline-block;
     position: relative;
-    color: #2c7ffc;
+    color: #a80000;
     text-decoration: none;
 }
     
@@ -181,5 +186,14 @@ nav h1 {
     
     .featured .play-button i {
     font-size: 5vw;
-    text-shadow: 0 0 100px #2c7ffc;
+    text-shadow: 0 0 100px #a80000;
     }
+
+h2 {
+  color: #fff;
+  text-align:center;
+  background-color: #000000;
+  padding:.5vw;
+  border-radius: .5vw;
+  width:10vw;
+}
